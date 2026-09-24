@@ -1,3 +1,5 @@
+import logoWhite from "@/assets/rca-logo-white.png";
+
 const linkGroups = [
   {
     title: "Navegação",
@@ -31,12 +33,11 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
         <div className="grid gap-10 md:grid-cols-4">
           <div>
-            <div className="flex items-center gap-2.5">
-              <span className="flex h-9 w-9 items-center justify-center rounded-md bg-highlight font-display text-sm font-bold text-highlight-foreground">
-                RCA
-              </span>
-              <span className="font-display text-sm font-semibold">RCA Inteligência Corporativa</span>
-            </div>
+            <img
+              src={logoWhite}
+              alt="RCA Inteligência Corporativa"
+              className="h-8 w-auto"
+            />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-navy-foreground/70">
               Consultoria em tecnologia, gestão de ITSM e outsourcing de profissionais de TI.
             </p>
