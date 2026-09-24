@@ -15,12 +15,12 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-navy-foreground/10 bg-navy/95 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <a href="#inicio" className="flex items-center">
+      <div className="mx-auto flex h-20 max-w-6xl items-center justify-between px-4 sm:h-24 sm:px-6">
+        <a href="#inicio" className="flex shrink-0 items-center py-2" aria-label="RCA Inteligência Corporativa — Início">
           <img
             src={logoWhite}
             alt="RCA Inteligência Corporativa"
-            className="h-8 w-auto sm:h-9"
+            className="h-12 w-auto sm:h-14 lg:h-16"
           />
         </a>
 

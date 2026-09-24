@@ -36,7 +36,7 @@ export function Footer() {
             <img
               src={logoWhite}
               alt="RCA Inteligência Corporativa"
-              className="h-8 w-auto"
+              className="h-12 w-auto sm:h-14"
             />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-navy-foreground/70">
               Consultoria em tecnologia, gestão de ITSM e outsourcing de profissionais de TI.
