@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoWhite from "@/assets/rca-logo-white.png";
 
 const links = [
   { href: "#inicio", label: "Início" },
@@ -15,13 +16,12 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-navy-foreground/10 bg-navy/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <a href="#inicio" className="flex items-center gap-2.5">
-          <span className="flex h-9 w-9 items-center justify-center rounded-md bg-highlight font-display text-sm font-bold text-highlight-foreground">
-            RCA
-          </span>
-          <span className="font-display text-sm font-semibold leading-tight text-navy-foreground sm:text-base">
-            RCA <span className="text-highlight">Inteligência Corporativa</span>
-          </span>
+        <a href="#inicio" className="flex items-center">
+          <img
+            src={logoWhite}
+            alt="RCA Inteligência Corporativa"
+            className="h-8 w-auto sm:h-9"
+          />
         </a>
 
         <nav className="hidden items-center gap-7 lg:flex">
