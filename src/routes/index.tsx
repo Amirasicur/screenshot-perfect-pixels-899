@@ -25,6 +25,8 @@ export const Route = createFileRoute("/")({
         content:
           "Tecnologia, serviços e talentos para impulsionar o seu negócio: consultoria, ITSM e outsourcing de profissionais de TI.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Index,
